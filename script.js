@@ -6,21 +6,21 @@ document.addEventListener("keydown", function(event) {
 		  if(event.key=='s'){
 		  	//console.log('s');
 		  	//animation=
-		  	document.getElementById('actor').setAttribute('animation','property: position; to: '+x+' '+y+' '+(z+0.05)+'; dur: 1000; easing: linear;');
+
 		  	document.getElementById('actor').setAttribute('position',x+' '+y+' '+(z+0.05));
 		  }
 		  if(event.key=='a'){
 		  //	console.log('a');
 
 		  	
-		  	document.getElementById('actor').setAttribute('animation','property: position; to: '+(x-0.02)+' '+(y)+' '+z+'; dur: 1000; easing: linear;');
+
 		  	document.getElementById('actor').setAttribute('position',(x-0.02)+' '+(y)+' '+z);
 		  }
 		  if(event.key=='d'){
 		  	//console.log('d');
 
 		  	
-		  	document.getElementById('actor').setAttribute('animation','property: position; to: '+(x+0.02)+' '+(y)+' '+z+'; dur: 1000; easing: linear;');
+
 		  	document.getElementById('actor').setAttribute('position',(x+0.02)+' '+(y)+' '+z);
 		  }
 });
