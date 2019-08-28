@@ -13,7 +13,7 @@
 				  	z = (document.getElementById("actor").getAttribute("position").z)
 				
 			    	//BACK
-			    	document.getElementById('actor').setAttribute('animation','property: position; to: '+x+' '+y+' '+(z+0.05)+'; dur: 1000; easing: linear;');
+			    	
 		  	document.getElementById('actor').setAttribute('position',x+' '+y+' '+(z+0.05));
 			    });
 			    this.el.addEventListener('bbuttondown', function (evt) {
@@ -22,7 +22,7 @@
 				  	z = (document.getElementById("actor").getAttribute("position").z)
 				
 			    	//BACK
-			    	document.getElementById('actor').setAttribute('animation','property: position; to: '+(x+0.02)+' '+(y)+' '+z+'; dur: 1000; easing: linear;');
+			    	
 		  	document.getElementById('actor').setAttribute('position',(x+0.02)+' '+(y)+' '+z);
 		  
 			    });
@@ -32,7 +32,7 @@
 				  	z = (document.getElementById("actor").getAttribute("position").z)
 				
 			    	
-			    			  	document.getElementById('actor').setAttribute('animation','property: position; to: '+(x-0.02)+' '+(y)+' '+z+'; dur: 1000; easing: linear;');
+			    	
 		  	document.getElementById('actor').setAttribute('position',(x-0.02)+' '+(y)+' '+z);
 
 			    });
